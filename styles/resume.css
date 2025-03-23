@@ -1,9 +1,44 @@
 .resume-section {
-   text-align: center;
- }
- 
- .resume-btn {
-   margin-top: 2rem;
-   display: inline-block;
- }
- 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full height for vertical centering */
+  color: rgb(206, 173, 173);
+  text-align: center;
+  padding: 2rem;
+}
+
+.resume-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.resume-section p {
+  font-size: 1.2rem;
+  color: #a49393;
+  margin-bottom: 2rem;
+}
+
+.resume-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-link {
+  background-color: yellow;
+  color: blue;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.download-link:hover {
+  background-color: #f1c40f;
+  transform: scale(1.05);
+  text-decoration: underline;
+}

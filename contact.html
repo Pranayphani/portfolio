@@ -4,6 +4,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="styles/index.css">
+   <link rel="stylesheet" href="styles/contact.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
    <title>Document</title>
 </head>
@@ -19,12 +20,22 @@
       </ul>
     </nav>
 
-   <form onsubmit="submitForm(event)">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
+    <section class="contact-section">
+      <h1>Contact</h1>
+      <form class="contact-form" onsubmit="submitForm(event)">
+        <label for="name">Name :</label>
+        <input type="text" id="name" placeholder="Name" required />
+    
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder="Email" required />
+    
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Message" required></textarea>
+    
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    
 
     <div class="footer">
          <h1>Feel free to get in touch</h1>
