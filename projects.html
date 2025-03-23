@@ -3,36 +3,70 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/index.css">
+   <link rel="stylesheet" href="styles/projects.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
    <title>Document</title>
 </head>
 <body>
-   <nav class="navbar">
-      <div>
-         Portfolio
-      </div>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+  <nav>
+    <a href="index.html">Portfolio</a>
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
    <div class="projects">
-      <div class="card">
-        <h3>Amazon Clone</h3>
-        <p>Responsive mockup of Amazon's homepage using HTML/CSS.</p>
+      <div class="project-card">
+        <ul style="list-style: disc;">
+          <h1>Amazon Clone</h1>
+          <li>
+            Designed and implemented comprehensive e-commerce application, replicating core functionalities of 
+           Amazon, including product browsing, cart management, and checkout processes.
+          </li>
+          <li>Implemented intuitive user interfaces and interactive features for adding, updating, and removing items 
+            from the cart.
+          </li>
+          <li>
+            Utilized the Day.js library to manage and manipulate real-time order dates for order processing.
+          </li>
+        </ul>
+        
         <a href="https://pranayphani.github.io/amazonProject/amazon.html">See it live</a>
       </div>
-      <div class="card">
-        <h3>Password Generator</h3>
+      <div class="project-card">
+        <h1>Password Generator</h1>
         <p>Create secure passwords using JavaScript with custom settings.</p>
         <a href="https://password-generator-two-woad.vercel.app/">See it live</a>
       </div>
-      <div class="card">
-        <h3>To-Do List</h3>
+      <div class="project-card">
+        <h1>To-Do List</h1>
         <p>Task manager with local storage and minimal UI.</p>
       </div>
     </div>
+
+    <div class="footer">
+         <h1>Feel free to get in touch</h1>
+         <div class="flex-footer-elements">
+            <i class="icon-style fa-solid fa-house"></i>
+            <p>Hyderabad, Telangana, India</p>
+         </div>
+   
+         <div class="link-cont">
+            <div class="flex-footer-elements">
+               <i class="icon-style fas fa-envelope"></i>
+               <a class="link-style link-text"href="mailto:samalapranay02@gmail.com">Email</a>
+            </div>
+      
+            <div class="flex-footer-elements">
+               <i class="icon-style fab fa-linkedin"></i>
+               <a class="link-style" href="https://www.linkedin.com/in/pranaykumarsamala/" target="_sel" title="LinkedIn">Linkedin</a>
+            </div>
+         </div>
+       
+     </div>
 </body>
 </html>

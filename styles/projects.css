@@ -1,0 +1,13 @@
+.projects{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.project-card{
+  background-color: yellowgreen;
+  height: 300px;
+  margin-right: 20px;
+}
