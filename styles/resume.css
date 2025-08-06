@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* full height for vertical centering */
-  color: rgb(206, 173, 173);
+  height: 60vh; /* full height for vertical centering */
+  color: rgb(111, 103, 103);
   text-align: center;
   padding: 2rem;
 }
@@ -16,7 +16,7 @@
 
 .resume-section p {
   font-size: 1.2rem;
-  color: #a49393;
+  color: #534d4d;
   margin-bottom: 2rem;
 }
 

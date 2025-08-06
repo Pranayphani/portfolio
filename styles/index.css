@@ -1,112 +1,110 @@
-
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family:Arial, Helvetica, sans-serif;
- }
- 
- body {
-   font-family: 'roboto';
-   background-color: rgb(61, 49, 49);
-   color: white;
-   line-height: 1.6;
- }
- 
- .container{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: "roboto";
+  background-color: rgb(241, 238, 238);
+  color: darkslategrey;
+  line-height: 1.6;
+}
+
+.container {
   padding: 20px;
   height: 100vh;
+}
+nav {
+  font-size: 28px;
+  background-color: rgb(241, 238, 238);
+  color: black;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
 
- }
- nav {
-   font-size: 28px;
-   background-color: rgb(197, 179, 179);
-   padding: 1rem 2rem;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   position: sticky;
-   top: 0;
-   z-index: 100;
- }
-
- .nav-list{
+.nav-list {
   display: flex;
   list-style-type: none;
- }
- 
- nav a {
-   color: #ffffff;
-   text-decoration: none;
-   margin: 0 1rem;
-   transition: color 0.3s ease;
- }
- 
- nav a:hover {
-   color: #268654;
-   text-decoration: underline;
-   font-size: 38px;
-   transition: color 0.3s ease;
- }
- 
- .welcome{
-  font-size: 40px;
-  font-family: 'Roboto';
-  font-weight: bold;
- }
+}
 
- .intro{
+nav a {
+  text-decoration: none;
+  margin: 0 1rem;
+  transition: color 0.4s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-size: 32px;
+  transition: font-size 0.2s ease;
+}
+
+.welcome {
+  font-size: 40px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.intro {
   padding: 12px;
   display: flex;
   flex-direction: column;
- }
+}
 
- .intro-text{
-  font-size: 28px;;
- }
- 
- .view-my-projects{
+.intro-text {
+  font-size: 28px;
+}
+
+.view-my-projects {
   text-align: center;
   width: 300px;
   font-size: 28px;
   margin-top: 58px;
   padding: 12px;
-  color: rgb(82, 137, 82);
-  background-color: rgb(99, 91, 91);
+  color: darkslategrey;
+  background-color: rgb(140, 131, 131);
   text-decoration: none;
- }
+}
 
- .view-my-projects:hover{
+.view-my-projects:hover {
   width: 370px;
-  font-size: 38px;
-  color: orange;
- }
+  font-size: 35px;
+  transition: width 0.4s ease;
+}
 
- .footer {
-   background-color: rgb(30, 26, 26);
-   text-align: center;
-   padding: 1.5rem 0;
-   margin-top: 4rem;
- }
- 
- .flex-footer-elements{
+.footer {
+  color: rgb(213, 197, 197);
+  background-color: rgb(64, 61, 61);
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 100px;
+}
+
+.flex-footer-elements {
   display: flex;
   justify-content: center;
- }
+}
 
- .link-cont{
+.link-cont {
   display: flex;
   justify-content: center;
   margin-right: 12px;
- }
+}
 
- .icon-style{
+.icon-style {
   align-self: center;
- }
+}
 
- .link-style{
-  color:rgb(82, 137, 82);
+.link-style {
+  color: rgb(82, 137, 82);
   text-decoration: none;
   margin-left: 5px;
   margin-right: 5px;
- }
+}

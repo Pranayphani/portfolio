@@ -1,76 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="styles/index.css">
-   <link rel="stylesheet" href="styles/projects.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-   <title>Document</title>
-</head>
-<body>
-  <nav>
-    <a href="index.html">Portfolio</a>
-    <ul class="nav-list">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-  <div class="projects">
-    <div class="project-card">
-      <h2>Amazon Clone</h2>
-      <ul class="project-list">
-        <li>Designed and implemented comprehensive e-commerce application, replicating core functionalities of Amazon.</li>
-        <li>Interactive features for adding, updating, and removing items from the cart.</li>
-        <li>Used Day.js for real-time order date management.</li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Portfolio</a>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <!-- <li><a href="contact.html">Contact</a></li> -->
       </ul>
-      <a class="live-link" target="_self" href="https://pranayphani.github.io/amazonProject/amazon.html">See it live</a>
+    </nav>
+    <div class="projects">
+      <div class="project-card">
+        <h2>Amazon Clone</h2>
+        <ul class="project-list">
+          <li>
+            Designed and implemented comprehensive e-commerce application,
+            replicating core functionalities of Amazon.
+          </li>
+          <li>
+            Interactive features for adding, updating, and removing items from
+            the cart.
+          </li>
+          <li>Used Day.js for real-time order date management.</li>
+        </ul>
+        <a
+          class="live-link"
+          target="_self"
+          href="https://pranayphani.github.io/amazonProject/amazon.html"
+          >See it live</a
+        >
+      </div>
+
+      <div class="project-card">
+        <h2>Password Generator</h2>
+        <ul class="project-list">
+          <li>
+            Developed a Password Generator with customizable options for length,
+            numbers, and special characters.
+          </li>
+          <li>
+            Implemented a dynamic length slider and character selection
+            checkboxes for flexible password creation.
+          </li>
+          <li>
+            Added a one-click copy-to-clipboard feature for easy and secure
+            password usage.
+          </li>
+        </ul>
+        <a
+          class="live-link"
+          href="https://password-generator-two-woad.vercel.app/"
+          target="_self"
+          >See it live</a
+        >
+      </div>
+
+      <div class="project-card">
+        <h2>Intern Management Portal</h2>
+        <ul class="project-list">
+          <li>
+            Built a full-featured web application using Angular and Bootstrap,
+            integrating CRUD operations with mock API data.
+          </li>
+          <li>
+            Implemented routing and navigation to manage views such as add,
+            edit, delete, and search intern records efficiently.
+          </li>
+          <li>
+            Designed and developed a searchable dashboard for managing intern
+            profiles, enabling seamless user interaction.
+          </li>
+        </ul>
+        <a
+          class="live-link"
+          href="https://gray-field-04624b81e.6.azurestaticapps.net/"
+          target="_self"
+          >See it live</a
+        >
+      </div>
+
+      <div class="project-card">
+        <h2>To-Do List</h2>
+        <ul class="project-list">
+          <li>
+            Implemented features to add, delete, and mark tasks as completed
+            with real-time updates.
+          </li>
+          <li>
+            Utilized local storage to persist tasks even after the browser is
+            closed or refreshed.
+          </li>
+        </ul>
+      </div>
     </div>
-  
-    <div class="project-card">
-      <h2>Password Generator</h2>
-      <ul class="project-list">
-        <li> Empowered users to generate secure passwords with customizable options, bolstering online security.</li>
-        <li>Engineered a length slider for dynamically adjusting password length, enhancing user flexibility.</li>
-        <li>Integrated a copy-to-clipboard feature for effortless usability, enabling one-click password copying.</li>
-        <li>Incorporated checkboxes for character options to include numbers and special characters, enabling 
-         tailored password generation</li>
-      </ul>
-      <a class="live-link" href="https://password-generator-two-woad.vercel.app/" target="_self">See it live</a>
-    </div>
-  
-    <div class="project-card">
-      <h2>To-Do List</h2>
-      <ul class="project-list">
-        <li> Implemented features to add, delete, and mark tasks as completed with real-time updates.</li>
-        <li>Utilized local storage to persist tasks even after the browser is closed or refreshed.</li>
-      </ul>
-    </div>
-  </div>
-  
 
     <div class="footer">
-         <h1>Feel free to get in touch</h1>
-         <div class="flex-footer-elements">
-            <i class="icon-style fa-solid fa-house"></i>
-            <p>Hyderabad, Telangana, India</p>
-         </div>
-   
-         <div class="link-cont">
-            <div class="flex-footer-elements">
-               <i class="icon-style fas fa-envelope"></i>
-               <a class="link-style link-text"href="mailto:samalapranay02@gmail.com">Email</a>
-            </div>
-      
-            <div class="flex-footer-elements">
-               <i class="icon-style fab fa-linkedin"></i>
-               <a class="link-style" href="https://www.linkedin.com/in/pranaykumarsamala/" target="_sel" title="LinkedIn">Linkedin</a>
-            </div>
-         </div>
-       
-     </div>
-</body>
+      <h1>Feel free to get in touch</h1>
+      <div class="flex-footer-elements">
+        <i class="icon-style fa-solid fa-house"></i>
+        <p>Hyderabad, Telangana, India</p>
+      </div>
+
+      <div class="link-cont">
+        <div class="flex-footer-elements">
+          <i class="icon-style fas fa-envelope"></i>
+          <a class="link-style link-text" href="mailto:samalapranay02@gmail.com"
+            >Email</a
+          >
+        </div>
+
+        <div class="flex-footer-elements">
+          <i class="icon-style fab fa-linkedin"></i>
+          <a
+            class="link-style"
+            href="https://www.linkedin.com/in/pranaykumarsamala/"
+            target="_sel"
+            title="LinkedIn"
+            >Linkedin</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
